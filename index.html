@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="pcm player">
+		<meta charset="UTF-8">
+        <title>pcm to wav </title>
+    </head>
+    <body>
+        采样率 <input type="number" value=11025 min=0 id="sampleRate"/>
+        采样精度    <select id="sampleBits">
+        <option value="8">8bits</option>
+        <option value="16" selected>16bits</option>
+        <option value="32">32bits</option>
+        </select>
+        声道  <select id="channelCount">
+        <option value="1">单声道</option>
+        <option value="2">双声道</option>
+        </select>
+
+        <script type="text/javascript" src="pcm_to_wav.js"></script>
+        <script type="text/javascript">
+            pcm_wav(('test.pcm','11025','16','1'));
+        </script>
+    </body>
+</html>
