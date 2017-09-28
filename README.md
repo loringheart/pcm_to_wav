@@ -2,7 +2,7 @@
 pcm音频数据流转wav直接播放。【PCM audio stream 】
 
 # 应用场景
-## 在线直接播放pcm音频数据。
+在线直接播放pcm音频数据。
 
 ## Example
 
@@ -36,13 +36,13 @@ pcm音频数据流转wav直接播放。【PCM audio stream 】
 </html>
 ```
 
-# 根据自己的业务修改js文件，可控制pcm音频播放暂停等。
+### 根据自己的业务修改js文件，可控制pcm音频播放暂停等。
 
-# Test Demo [HTML5_Audio_Visualizer](https://loringheart.github.io/pcm_to_wav/)
+### Test Demo [HTML5_Audio_Visualizer](https://loringheart.github.io/pcm_to_wav/)
 测试 test.pcm 文件有点大，网络不好的情况请稍等一下。
  
-# 参考资料  [HTML5_Audio_Visualizer](https://github.com/loringmore/HTML5_Audio_Visualizer)
+### 参考资料  [HTML5_Audio_Visualizer](https://github.com/loringmore/HTML5_Audio_Visualizer)
 
-# 测试本地pcm文件 [HTML5_Audio_Visualizer](./demo/index.html)
+### 测试本地pcm文件 [HTML5_Audio_Visualizer](https://loringheart.github.io/pcm_to_wav/demo/)
 
 
