@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="pcm player">
+		<meta charset="UTF-8">
+        <title>html5 Audio player</title>
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+    <input type="file" id="uploadedFile" />
+        <div id="wrapper">
+            <div id="fileWrapper" class="file_wrapper">
+                <div id="info">
+                    HTML5 Audio player |can play pcm
+                </div>
+                <label for="uploadedFile">Drag&drop or select a file to play:</label>
+                
+                采样率<input type="number" value=11025 min=0 id="sampleRate"/>
+                采样精度<select id="sampleBits">
+                    <option value="8">8bits</option>
+                    <option value="16" selected>16bits</option>
+                    <option value="32">32bits</option>
+                </select>
+                声道<select id="channelCount">
+                    <option value="1">单声道</option>
+                    <option value="2">双声道</option>
+                </select>
+
+                <canvas id='canvas' width="800" height="350"></canvas>
+            </div>
+            <div id="visualizer_wrapper">
+            </div>
+        </div>
+        <script type="text/javascript" src="js/html5_audio_pcm.js"></script>
+    </body>
+</html>
